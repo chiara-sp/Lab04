@@ -9,8 +9,10 @@ public class TestDB {
 		 */
 		
 		CorsoDAO cdao = new CorsoDAO();
+		StudenteDAO sdao= new StudenteDAO();
 		cdao.getTuttiICorsi();
-		
+		//System.out.println(sdao.getStudente(146101));
+		//System.out.print(sdao.studenteIscrittoCorso(146101, null));
 		
 	}
 

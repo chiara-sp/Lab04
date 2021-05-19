@@ -6,10 +6,8 @@ public class TestModel {
 
 		Model model = new Model();
 		
-		/*
-		 * 	Write here your test model
-		 */
-
+		//System.out.println(model.listaCorsi());
+		//System.out.print(model.studentiIscrittiCorso(null));
 	}
 
 }
